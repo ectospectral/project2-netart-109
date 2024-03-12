@@ -63,10 +63,12 @@ h1{
 .descend-link{
     position: absolute;
     left: 15vw;
+    color:white;
 }
 .surface-link{
     position: absolute;
     left: 75vw;
+    color: white;
 }
 
 /* the depths */
