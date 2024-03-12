@@ -4,16 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
     <title>the depths</title>
 </head>
 <body class="depths-body">
     <main>
-        <form action="#" method="get">
-            <label for="password">Password: </label>
+        <form id="depths-form" action="main.html" onsubmit="return enterPassword()">
+            <div>
+            <label for="password">enter password</label>
             <!-- bzl zea aikziovo qk rdaopv. lyk nse bg markpb aa fhmd batq. -->
-            <input type="text" name="password" id="ishmael" required>
-            <br>
+            <input type="password" name="password" id="ishmael" required>
+            </div>
         </form>
+        <script src="main.js"></script>
     </main>
 </body>
 
