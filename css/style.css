@@ -30,7 +30,7 @@ html {
 /* index */
 
 
-html{
+#index-html{
     height: 2000%;
     background: rgb(255,255,255);
     background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(113,149,188,1) 73%, rgb(1, 12, 38) 100%); 
@@ -46,7 +46,7 @@ h1{
 
 .index-footer{
     position: absolute;
-    bottom: -14720px;
+    bottom: -1880vh;
 
 
     display: grid;
