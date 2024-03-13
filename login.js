@@ -9,7 +9,7 @@ function enterPassword(){
         return false;
     }
     else if(document.querySelector('#ishmael').value === correctPassword){
-        alert('Welcome back.')
+        alert('Welcome back.');
         return true;
     }
 }
